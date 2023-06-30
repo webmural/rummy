@@ -1,0 +1,46 @@
+.halo {
+  font-size: max(2em, 10vmin);
+  font-family: fantasy;
+  font-family: sans-serif;
+}
+
+.hope {
+  margin: 2vh 2vw;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.hair {
+  align-items: center;
+  margin: auto;
+  min-height: 100vh;
+  overflow-wrap: anywhere;
+  padding: 2ex;
+  border-top: 2ex solid var(--tape-pink);
+  border-left: 2ex solid var(--tape-yellow);
+  border-right: 2ex solid var(--tape-blue);
+  border-bottom: 2ex solid var(--tape-green);
+  box-sizing: border-box;
+  border-radius: 100%;
+  display: flex;
+}
+
+.aloha {
+  font-weight: unset;
+  margin: 0;
+}
+
+:focus {
+  outline: thick groove;
+}
+
+:hover {
+  text-decoration-style: double;
+}
+
+@media (orientation: portrait) {
+  .hair {
+    writing-mode: sideways-rl;
+  }
+}
